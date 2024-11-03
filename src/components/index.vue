@@ -119,7 +119,7 @@
             <a href="#" class="opacity-70 hover:opacity-100">
               <img
                 loading="lazy"
-                src="/src/assets/images/logo/Linkedin.png"
+                src="/src/assets/images/logo/LinkedIn.png"
                 alt="LinkedIn"
                 class="w-6 h-6"
               />
