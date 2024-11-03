@@ -22,7 +22,7 @@
             <!-- Left Column-->
             <div class="flex flex-col w-3/4 gap-8 max-md:w-full">
               <!-- Article Card 1 -->
-              <a href="#" class="post-link">
+              <RouterLink to ="#" class="post-link">
                 <div class="flex gap-6 max-md:flex-col post">
                   <div class="w-1/3 max-md:w-full">
                     <img loading="lazy" src="/src/assets/images/blog2.png" alt="Business related image 1" class="w-full aspect-[0.94] object-cover" />
@@ -39,10 +39,10 @@
                     </p>
                   </div>
                 </div>
-              </a>
+              </RouterLink>
               
               <!-- Article Card 2 -->
-              <a href="#" class="post-link">
+              <RouterLink to ="#" class="post-link">
                 <div class="flex gap-6 max-md:flex-col post">
                   <div class="w-1/3 max-md:w-full">
                     <img loading="lazy" src="/src/assets/images/blog2.png" alt="Business related image 2" class="w-full aspect-[0.94] object-cover" />
@@ -59,10 +59,10 @@
                     </p>
                   </div>
                 </div>
-              </a>
+              </RouterLink>
 
               <!-- Article Card 3 -->
-              <a href="#" class="post-link">
+              <RouterLink to ="#" class="post-link">
                 <div class="flex gap-6 max-md:flex-col post">
                   <div class="w-1/3 max-md:w-full">
                     <img loading="lazy" src="/src/assets/images/blog2.png" alt="Business related image 3" class="w-full aspect-[0.94] object-cover" />
@@ -79,10 +79,10 @@
                     </p>
                   </div>
                 </div>
-              </a>
+              </RouterLink>
 
               <!-- Article Card 4 -->
-              <a href="#" class="post-link">
+              <RouterLink to ="#" class="post-link">
                 <div class="flex gap-6 max-md:flex-col post">
                   <div class="w-1/3 max-md:w-full">
                     <img loading="lazy" src="/src/assets/images/blog2.png" alt="Business related image 4" class="w-full aspect-[0.94] object-cover" />
@@ -99,7 +99,7 @@
                     </p>
                   </div>
                 </div>
-              </a>
+              </RouterLink>
             </div>
 
             <!-- Right Column -->
@@ -111,7 +111,7 @@
                     Category
                   </h2>
                   <div class="flex flex-col gap-6 w-full">
-                    <a href="/category" class="flex-col w-[325px] categories group">
+                    <RouterLink to ="/category" class="flex-col w-[325px] categories group">
                       <article>
                         <div class="flex items-center p-8 w-full border border-solid border-zinc-500 max-md:px-5 h-28">
                           <div class="flex items-center gap-4">
@@ -122,9 +122,9 @@
                           </div>
                         </div>
                       </article>
-                    </a>
+                    </RouterLink>
 
-                    <a href="/category" class="flex-col w-[325px] categories group">
+                    <RouterLink to ="/category" class="flex-col w-[325px] categories group">
                       <article>
                         <div class="flex items-center p-8 w-full border border-solid border-zinc-500 max-md:px-5 h-28">
                           <div class="flex items-center gap-4">
@@ -135,9 +135,9 @@
                           </div>
                         </div>
                       </article>
-                    </a>
+                    </RouterLink>
                     
-                    <a href="/category" class="flex-col w-[325px] categories group">
+                    <RouterLink to ="/category" class="flex-col w-[325px] categories group">
                       <article>
                         <div class="flex items-center p-8 w-full border border-solid border-zinc-500 max-md:px-5 h-28">
                           <div class="flex items-center gap-4">
@@ -148,9 +148,9 @@
                           </div>
                         </div>
                       </article>
-                    </a>
+                    </RouterLink>
 
-                    <a href="/category" class="flex-col w-[325px] categories group">
+                    <RouterLink to ="/category" class="flex-col w-[325px] categories group">
                       <article>
                         <div class="flex items-center p-8 w-full border border-solid border-zinc-500 max-md:px-5 h-28">
                           <div class="flex items-center gap-4">
@@ -161,7 +161,7 @@
                           </div>
                         </div>
                       </article>
-                    </a>
+                    </RouterLink>
                   </div>
                 </section>
 

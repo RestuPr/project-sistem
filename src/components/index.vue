@@ -4,23 +4,23 @@
       <header class="flex items-center justify-between px-16 py-4 w-full text-white bg-gray-800 min-h-[80px] max-md:px-5">
   <!-- Logo di kiri -->
   <div class="flex-none">
-    <a href="/">
+    <RouterLink to="/">
       <img
       loading="lazy"
       src="/src/assets/images/logo/logo-join-sistem.png"
       alt="Blog Logo"
       class="object-contain w-[118px] aspect-[4.22]"
     />
-    </a>
+    </RouterLink>
     
   </div>
   
   <!-- Navigation di tengah -->
   <nav class="flex items-center gap-6 text-base leading-7">
-    <a href="/" class="hover:text-blue-300">Home</a>
-    <a href="/blog" class="hover:text-blue-300">Blog</a>
-    <a href="/about" class="hover:text-blue-300">About Us</a>
-    <a href="/contact" class="hover:text-blue-300">Contact us</a>
+    <RouterLink to="/" class="hover:text-blue-300">Home</RouterLink>
+    <RouterLink to="/blog" class="hover:text-blue-300">Blog</RouterLink>
+    <RouterLink to="/about" class="hover:text-blue-300">About Us</RouterLink>
+    <RouterLink to="/contact" class="hover:text-blue-300">Contact us</RouterLink>
   </nav>
   
   <!-- Contact US button di kanan -->
@@ -48,11 +48,11 @@
             class="w-[140px]"
           />
           <nav class="flex gap-6">
-            <a href="/" class="hover:text-blue-300">Home</a>
-            <a href="/blog" class="hover:text-blue-300">Blog</a>
-            <a href="/about" class="hover:text-blue-300">About us</a>
-            <a href="/contact" class="hover:text-blue-300">Contact us</a>
-            <a href="/privacy" class="hover:text-blue-300">Privacy Policy</a>
+            <RouterLink to="/" class="hover:text-blue-300">Home</RouterLink>
+            <RouterLink to="/blog" class="hover:text-blue-300">Blog</RouterLink>
+            <RouterLink to="/about" class="hover:text-blue-300">About us</RouterLink>
+            <RouterLink to="/contact" class="hover:text-blue-300">Contact us</RouterLink>
+            <RouterLink to="/privacy" class="hover:text-blue-300">Privacy Policy</RouterLink>
           </nav>
         </div>
   
@@ -92,38 +92,38 @@
           </div>
           
           <div class="flex items-center gap-4">
-            <a href="#" class="opacity-70 hover:opacity-100">
+            <RouterLink to="#" class="opacity-70 hover:opacity-100">
               <img
                 loading="lazy"
                 src="/src/assets/images/logo/Facebook.png"
                 alt="Facebook"
                 class="w-6 h-6"
               />
-            </a>
-            <a href="#" class="opacity-70 hover:opacity-100">
+            </RouterLink>
+            <RouterLink to="#" class="opacity-70 hover:opacity-100">
               <img
                 loading="lazy"
                 src="/src/assets/images/logo/Twitter.png"
                 alt="Twitter"
                 class="w-6 h-6"
               />
-            </a>
-            <a href="#" class="opacity-70 hover:opacity-100">
+            </RouterLink>
+            <RouterLink to="#" class="opacity-70 hover:opacity-100">
               <img
                 loading="lazy"
                 src="/src/assets/images/logo/Instagram.png"
                 alt="Instagram"
                 class="w-6 h-6"
               />
-            </a>
-            <a href="#" class="opacity-70 hover:opacity-100">
+            </RouterLink>
+            <RouterLink to="#" class="opacity-70 hover:opacity-100">
               <img
                 loading="lazy"
                 src="/src/assets/images/logo/LinkedIn.png"
                 alt="LinkedIn"
                 class="w-6 h-6"
               />
-            </a>
+            </RouterLink>
           </div>
         </footer>
       </section>

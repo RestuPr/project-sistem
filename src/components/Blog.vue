@@ -11,7 +11,7 @@
                     Step-by-step guide to choosing great font pairs
                   </h1>
                   <time datetime="2022-05-23" class="mt-4 text-sm leading-none">
-                    By <a href="#" class="text-amber-300 hover:underline">John Doe</a> l May 23, 2022
+                    By <RouterLink to ="#" class="text-amber-300 hover:underline">John Doe</RouterLink> l May 23, 2022
                   </time>
                   <p class="self-stretch mt-4 text-base leading-7 text-zinc-500 max-md:max-w-full">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
@@ -43,7 +43,7 @@
             <div class="mt-16 w-full max-w-[1147px] max-md:mt-10 max-md:max-w-full">
 
               <!-- Post 1 -->
-              <a href="#" class="block post-link">
+              <RouterLink to ="#" class="block post-link">
                 <div class="post flex gap-5 mb-16 max-md:flex-col">
                   <div class="w-[44%] max-md:w-full">
                     <img 
@@ -59,10 +59,10 @@
                     <p class="mt-4 text-base leading-7 text-zinc-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                   </div>
                 </div>
-              </a>
+              </RouterLink>
 
               <!-- Post 2 -->
-              <a href="#" class="block post-link">
+              <RouterLink to ="#" class="block post-link">
                 <div class="post flex gap-5 mb-16 max-md:flex-col">
                   <div class="w-[44%] max-md:w-full">
                     <img 
@@ -78,10 +78,10 @@
                     <p class="mt-4 text-base leading-7 text-zinc-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                   </div>
                 </div>
-              </a>
+              </RouterLink>
 
               <!-- Post 3 -->
-              <a href="#" class="block post-link">
+              <RouterLink to ="#" class="block post-link">
                 <div class="post flex gap-5 mb-16 max-md:flex-col">
                   <div class="w-[44%] max-md:w-full">
                     <img 
@@ -97,10 +97,10 @@
                     <p class="mt-4 text-base leading-7 text-zinc-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                   </div>
                 </div>
-              </a>
+              </RouterLink>
 
               <!-- Post 4 -->
-              <a href="#" class="block post-link">
+              <RouterLink to ="#" class="block post-link">
                 <div class="post flex gap-5 mb-16 max-md:flex-col">
                   <div class="w-[44%] max-md:w-full">
                     <img 
@@ -116,10 +116,10 @@
                     <p class="mt-4 text-base leading-7 text-zinc-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                   </div>
                 </div>
-              </a>
+              </RouterLink>
 
               <!-- Post 5 -->
-              <a href="#" class="block post-link">
+              <RouterLink to ="#" class="block post-link">
                 <div class="post flex gap-5 mb-16 max-md:flex-col">
                   <div class="w-[44%] max-md:w-full">
                     <img 
@@ -135,7 +135,7 @@
                     <p class="mt-4 text-base leading-7 text-zinc-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                   </div>
                 </div>
-              </a>
+              </RouterLink>
             </div>
             <div class="flex gap-4 self-center mt-16 font-bold text-center">
               <button 
@@ -157,7 +157,7 @@
             Choose A Category
           </h2>
           <div class="flex gap-5 w-full justify-center max-md:flex-col">
-            <a href="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
+            <RouterLink to ="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
               <article>
                 <div class="flex flex-col grow items-start p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8">
                   <div class="w-14 h-14 flex items-center justify-center rounded-lg bg-orange-50">
@@ -169,9 +169,9 @@
                   </p>
                 </div>
               </article>
-            </a>
+            </RouterLink>
             
-            <a href="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
+            <RouterLink to ="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
               <article>
                 <div class="flex flex-col grow items-start p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8">
                   <div class="w-14 h-14 flex items-center justify-center rounded-lg bg-orange-50">
@@ -183,9 +183,9 @@
                   </p>
                 </div>
               </article>
-            </a>
+            </RouterLink>
             
-            <a href="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
+            <RouterLink to ="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
               <article>
                 <div class="flex flex-col grow items-start p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8">
                   <div class="w-14 h-14 flex items-center justify-center rounded-lg bg-orange-50">
@@ -197,9 +197,9 @@
                   </p>
                 </div>
               </article>
-            </a>
+            </RouterLink>
             
-            <a href ="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
+            <RouterLink to ="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
               <article>
                 <div class="flex flex-col grow items-start p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8">
                   <div class="w-14 h-14 flex items-center justify-center rounded-lg bg-orange-50">
@@ -211,7 +211,7 @@
                   </p>
                 </div>
               </article>
-            </a>
+            </RouterLink>
           </div>
         </section>
     

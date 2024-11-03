@@ -5,20 +5,20 @@
         <!-- Author Section -->
         <section class="flex items-start mb-9">
           <div class="flex gap-4">  
-            <a href="#">
+            <RouterLink to ="#">
               <img 
               loading="lazy" 
               src="/src/assets/images/profile/jonathan.png" 
               alt="Andrew Jonson's profile picture" 
               class="object-contain w-12 h-12 rounded-full"
             />
-            </a>
+            </RouterLink>
             <div>
-              <a href="#" class="hover:opacity-75">
+              <RouterLink to ="#" class="hover:opacity-75">
                 <h1 class="text-3xl font-bold tracking-tighter text-amber-300 opacity-87 -mt-2">
                   Andrew Jonson
                 </h1>
-              </a>
+              </RouterLink>
               <p class="text-zinc-500 text-sm font-light">
                 posted on 27th January 2022
               </p>

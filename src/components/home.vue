@@ -18,7 +18,7 @@
               Step-by-step guide to choosing great font pairs
             </h1>
             <p class="mt-6 leading-7">
-              By <a href="#" class="text-blue-600 hover:underline">James West</a> | May 23, 2022
+              By <Routerlink to ="#" class="text-blue-600 hover:underline">James West</Routerlink> | May 23, 2022
             </p>
             <p class="mt-4 leading-7 w-[599px] max-md:max-w-full">
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
@@ -48,7 +48,7 @@
                 />
                 <div class="mt-8">
                   <p class="text-sm font-medium">
-                    By <a href="#" class="hover:underline text-amber-300">John Doe</a> | May 23, 2022
+                    By <Routerlink to ="#" class="hover:underline text-amber-300">John Doe</Routerlink> | May 23, 2022
                   </p>
                   <h3 class="mt-4 text-3xl font-bold tracking-tighter text-gray-800">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -70,61 +70,61 @@
             <div class="col-span-2">
               <div class="flex justify-between items-center mb-8">
                 <h3 class="text-4xl font-bold tracking-tighter text-gray-800">All Posts</h3>
-                <a href="#" class="text-base leading-7 text-amber-300 hover:underline">View All</a>
+                <Routerlink to ="#" class="text-base leading-7 text-amber-300 hover:underline">View All</Routerlink>
               </div>
               
               <!-- Side Posts Content -->
               <div class="flex flex-col gap-4">
-                <a href="#">
+                <Routerlink to ="#">
                   <article class="bg-white p-7 article" >
                     <p class="text-sm">
-                      By <a href="#" class="hover:underline font-medium text-amber-300">John Deo</a> | Aug 23, 2021
+                      By <Routerlink to ="#" class="hover:underline font-medium text-amber-300">John Deo</Routerlink> | Aug 23, 2021
                     </p>
                     <h3 class="mt-2 text-2xl font-bold text-gray-800">
                       8 Figma design systems that you can download for free today.
                     </h3>
                   </article>
-                </a>
-                <a href="#">
+                </Routerlink>
+                <Routerlink to ="#">
                   <article class="bg-white p-7 article" >
                     <p class="text-sm">
-                      By <a href="#" class="hover:underline font-medium text-amber-300">John Deo</a> | Aug 23, 2021
+                      By <Routerlink to ="#" class="hover:underline font-medium text-amber-300">John Deo</Routerlink> | Aug 23, 2021
                     </p>
                     <h3 class="mt-2 text-2xl font-bold text-gray-800">
                       8 Figma design systems that you can download for free today.
                     </h3>
                   </article>
-                </a>
-                <a href="#">
+                </Routerlink>
+                <Routerlink to ="#">
                   <article class="bg-white p-7 article" >
                     <p class="text-sm">
-                      By <a href="#" class="hover:underline font-medium text-amber-300">John Deo</a> | Aug 23, 2021
+                      By <Routerlink to ="#" class="hover:underline font-medium text-amber-300">John Deo</Routerlink> | Aug 23, 2021
                     </p>
                     <h3 class="mt-2 text-2xl font-bold text-gray-800">
                       8 Figma design systems that you can download for free today.
                     </h3>
                   </article>
-                </a>
-                <a href="#">
+                </Routerlink>
+                <Routerlink to ="#">
                   <article class="bg-white p-7 article" >
                     <p class="text-sm">
-                      By <a href="#" class="hover:underline font-medium text-amber-300">John Deo</a> | Aug 23, 2021
+                      By <Routerlink to ="#" class="hover:underline font-medium text-amber-300">John Deo</Routerlink> | Aug 23, 2021
                     </p>
                     <h3 class="mt-2 text-2xl font-bold text-gray-800">
                       8 Figma design systems that you can download for free today.
                     </h3>
                   </article>
-                </a>
-                <a href="#">
+                </Routerlink>
+                <Routerlink to ="#">
                   <article class="bg-white p-7 article" >
                     <p class="text-sm">
-                      By <a href="#" class="hover:underline font-medium text-amber-300">John Deo</a> | Aug 23, 2021
+                      By <Routerlink to ="#" class="hover:underline font-medium text-amber-300">John Deo</Routerlink> | Aug 23, 2021
                     </p>
                     <h3 class="mt-2 text-2xl font-bold text-gray-800">
                       8 Figma design systems that you can download for free today.
                     </h3>
                   </article>
-                </a>
+                </Routerlink>
               </div>
             </div>
           </div>
@@ -146,7 +146,7 @@
               <p class="mt-4 text-zinc-500">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <a href="/about" class="mt-7 inline-block text-lg text-amber-300 hover:underline">Read More ></a>
+              <Routerlink to ="#" class="mt-7 inline-block text-lg text-amber-300 hover:underline">Read More ></Routerlink>
             </div>
             <div>
               <span class="uppercase tracking-[3px] font-semibold text-gray-800">OUR MISSION</span>
@@ -166,7 +166,7 @@
             Choose A Category
           </h2>
           <div class="flex gap-5 w-full justify-center max-md:flex-col">
-            <a href="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
+            <Routerlink to ="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
               <article>
                 <div class="flex flex-col grow items-start p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8">
                   <div class="w-14 h-14 flex items-center justify-center rounded-lg bg-orange-50">
@@ -178,9 +178,9 @@
                   </p>
                 </div>
               </article>
-            </a>
+            </Routerlink>
             
-            <a href="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
+            <Routerlink to ="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
               <article>
                 <div class="flex flex-col grow items-start p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8">
                   <div class="w-14 h-14 flex items-center justify-center rounded-lg bg-orange-50">
@@ -192,9 +192,9 @@
                   </p>
                 </div>
               </article>
-            </a>
+            </Routerlink>
             
-            <a href="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
+            <Routerlink to ="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
               <article>
                 <div class="flex flex-col grow items-start p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8">
                   <div class="w-14 h-14 flex items-center justify-center rounded-lg bg-orange-50">
@@ -206,9 +206,9 @@
                   </p>
                 </div>
               </article>
-            </a>
+            </Routerlink>
             
-            <a href ="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
+            <Routerlink to ="/category" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full categories group">
               <article>
                 <div class="flex flex-col grow items-start p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8">
                   <div class="w-14 h-14 flex items-center justify-center rounded-lg bg-orange-50">
@@ -220,7 +220,7 @@
                   </p>
                 </div>
               </article>
-            </a>
+            </Routerlink>
           </div>
         </section>
 
@@ -255,7 +255,7 @@
         List of Authors
       </h2>
       <div class="grid grid-cols-4 gap-5 max-md:grid-cols-1">
-        <a href="/author">
+        <Routerlink to ="/author">
           <article class="bg-zinc-100 px-14 py-10 text-center article">
             <img
               loading="lazy"
@@ -266,22 +266,22 @@
             <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">Floyd Miles</h3>
             <p class="mt-1 text-sm text-zinc-500">Content Writer @Company</p>
             <div class="mt-5 flex justify-center gap-4">
-              <a href="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              <Routerlink to ="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/FacebookBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
-              <a href="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              </Routerlink>
+              <Routerlink to ="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/TwitterBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
-              <a href="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              </Routerlink>
+              <Routerlink to ="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/InstagramBlack.png" alt="Facebook icon icon" class="w-6 h-6" />
-              </a>
-              <a href="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              </Routerlink>
+              <Routerlink to ="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/LinkedInBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
+              </Routerlink>
             </div>
           </article>
-        </a>
-        <a href="/author">
+        </Routerlink>
+        <RouterLink to ="/author">
           <article class="bg-zinc-100 px-14 py-10 text-center article">
             <img
               loading="lazy"
@@ -292,22 +292,22 @@
             <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">Dianne Russell</h3>
             <p class="mt-1 text-sm text-zinc-500">Content Writer @Company</p>
             <div class="mt-5 flex justify-center gap-4">
-              <a href="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              <RouterLink to ="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/FacebookBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
-              <a href="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              </RouterLink>
+              <RouterLink to ="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/TwitterBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
-              <a href="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              </RouterLink>
+              <RouterLink to ="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/InstagramBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
-              <a href="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              </RouterLink>
+              <RouterLink to ="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/LinkedInBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
+              </RouterLink>
             </div>
           </article>
-        </a>
-        <a href="/author">
+        </RouterLink>
+        <RouterLink to ="/author">
           <article class="bg-zinc-100 px-14 py-10 text-center article">
             <img
               loading="lazy"
@@ -318,22 +318,22 @@
             <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">Jenny Wilson</h3>
             <p class="mt-1 text-sm text-zinc-500">Content Writer @Company</p>
             <div class="mt-5 flex justify-center gap-4">
-              <a href="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              <RouterLink to ="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/FacebookBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
-              <a href="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              </RouterLink>
+              <RouterLink to ="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/TwitterBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
-              <a href="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              </RouterLink>
+              <RouterLink to ="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/InstagramBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
-              <a href="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              </RouterLink>
+              <RouterLink to ="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/LinkedInBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
+              </RouterLink>
             </div>
           </article>
-        </a>
-        <a href="/author">
+        </RouterLink>
+        <RouterLink to ="/author">
           <article class="bg-zinc-100 px-14 py-10 text-center article">
             <img
               loading="lazy"
@@ -344,21 +344,21 @@
             <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">Leslie Alexander</h3>
             <p class="mt-1 text-sm text-zinc-500">Content Writer @Company</p>
             <div class="mt-5 flex justify-center gap-4">
-              <a href="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              <RouterLink to ="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/FacebookBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
-              <a href="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              </RouterLink>
+              <RouterLink to ="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/TwitterBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
-              <a href="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              </RouterLink>
+              <RouterLink to ="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/InstagramBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
-              <a href="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+              </RouterLink>
+              <RouterLink to ="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                 <img loading="lazy" src="/src/assets/images/logo/LinkedInBlack.png" alt="Facebook icon" class="w-6 h-6" />
-              </a>
+              </RouterLink>
             </div>
           </article>
-        </a>
+        </RouterLink>
       </div>
     </section>
 
@@ -391,20 +391,20 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </blockquote>
           <div class="mt-28 flex items-center gap-4">
-            <a href="/author">
+            <RouterLink to ="/author">
               <img
                 loading="lazy"
                 src="/src/assets/images/profile/jonathan.png"
                 alt="Jonathan Vallem"
                 class="w-12 h-12 rounded-full object-cover"
               />
-            </a>
-            <a href="/author">
+            </RouterLink>
+            <RouterLink to ="/author">
               <div>
                 <cite class="text-2xl font-bold text-gray-800 not-italic">Jonathan Vallem</cite>
                 <p class="text-zinc-500">New York, USA</p>
               </div>
-            </a>
+            </RouterLink>
             <div class="ml-auto flex gap-6">
               <button
                   aria-label="Previous testimonial"

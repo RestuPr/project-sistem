@@ -145,7 +145,7 @@
             List of Authors
           </h2>
           <div class="grid grid-cols-4 gap-5 max-md:grid-cols-1">
-            <a href="/author">
+            <RouterLink to ="/author">
               <article class="bg-zinc-100 px-14 py-10 text-center article">
                 <img
                   loading="lazy"
@@ -156,22 +156,22 @@
                 <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">Floyd Miles</h3>
                 <p class="mt-1 text-sm text-zinc-500">Content Writer @Company</p>
                 <div class="mt-5 flex justify-center gap-4">
-                  <a href="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  <RouterLink to ="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/FacebookBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/TwitterBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/InstagramBlack.png" alt="Facebook icon icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/LinkedInBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
+                  </RouterLink>
                 </div>
               </article>
-            </a>
-            <a href="/author">
+            </RouterLink>
+            <RouterLink to ="/author">
               <article class="bg-zinc-100 px-14 py-10 text-center article">
                 <img
                   loading="lazy"
@@ -182,22 +182,22 @@
                 <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">Dianne Russell</h3>
                 <p class="mt-1 text-sm text-zinc-500">Content Writer @Company</p>
                 <div class="mt-5 flex justify-center gap-4">
-                  <a href="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  <RouterLink to ="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/FacebookBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/TwitterBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/InstagramBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/LinkedInBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
+                  </RouterLink>
                 </div>
               </article>
-            </a>
-            <a href="/author">
+            </RouterLink>
+            <RouterLink to ="/author">
               <article class="bg-zinc-100 px-14 py-10 text-center article">
                 <img
                   loading="lazy"
@@ -208,22 +208,22 @@
                 <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">Jenny Wilson</h3>
                 <p class="mt-1 text-sm text-zinc-500">Content Writer @Company</p>
                 <div class="mt-5 flex justify-center gap-4">
-                  <a href="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  <RouterLink to ="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/FacebookBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/TwitterBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/InstagramBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/LinkedInBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
+                  </RouterLink>
                 </div>
               </article>
-            </a>
-            <a href="/author">
+            </RouterLink>
+            <RouterLink to ="/author">
               <article class="bg-zinc-100 px-14 py-10 text-center article">
                 <img
                   loading="lazy"
@@ -234,22 +234,22 @@
                 <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">Leslie Alexander</h3>
                 <p class="mt-1 text-sm text-zinc-500">Content Writer @Company</p>
                 <div class="mt-5 flex justify-center gap-4">
-                  <a href="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  <RouterLink to ="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/FacebookBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/TwitterBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/InstagramBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/LinkedInBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
+                  </RouterLink>
                 </div>
               </article>
-            </a>
-            <a href="/author">
+            </RouterLink>
+            <RouterLink to ="/author">
               <article class="bg-zinc-100 px-14 py-10 text-center article">
                 <img
                   loading="lazy"
@@ -260,22 +260,22 @@
                 <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">Guy Hawkins</h3>
                 <p class="mt-1 text-sm text-zinc-500">Content Writer @Company</p>
                 <div class="mt-5 flex justify-center gap-4">
-                  <a href="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  <RouterLink to ="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/FacebookBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/TwitterBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/InstagramBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/LinkedInBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
+                  </RouterLink>
                 </div>
               </article>
-            </a>
-            <a href="/author">
+            </RouterLink>
+            <RouterLink to ="/author">
               <article class="bg-zinc-100 px-14 py-10 text-center article">
                 <img
                   loading="lazy"
@@ -286,22 +286,22 @@
                 <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">Eleanor Pena</h3>
                 <p class="mt-1 text-sm text-zinc-500">Content Writer @Company</p>
                 <div class="mt-5 flex justify-center gap-4">
-                  <a href="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  <RouterLink to ="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/FacebookBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/TwitterBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/InstagramBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/LinkedInBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
+                  </RouterLink>
                 </div>
               </article>
-            </a>
-            <a href="/author">
+            </RouterLink>
+            <RouterLink to ="/author">
               <article class="bg-zinc-100 px-14 py-10 text-center article">
                 <img
                   loading="lazy"
@@ -312,22 +312,22 @@
                 <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">Robert Fox</h3>
                 <p class="mt-1 text-sm text-zinc-500">Content Writer @Company</p>
                 <div class="mt-5 flex justify-center gap-4">
-                  <a href="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  <RouterLink to ="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/FacebookBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/TwitterBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/InstagramBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/LinkedInBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
+                  </RouterLink>
                 </div>
               </article>
-            </a>
-            <a href="/author">
+            </RouterLink>
+            <RouterLink to ="/author">
               <article class="bg-zinc-100 px-14 py-10 text-center article">
                 <img
                   loading="lazy"
@@ -338,21 +338,21 @@
                 <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800">Jacob Jones</h3>
                 <p class="mt-1 text-sm text-zinc-500">Content Writer @Company</p>
                 <div class="mt-5 flex justify-center gap-4">
-                  <a href="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  <RouterLink to ="#" aria-label="Facebook" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/FacebookBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Twitter" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/TwitterBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="Instagram" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/InstagramBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
-                  <a href="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
+                  </RouterLink>
+                  <RouterLink to ="#" aria-label="LinkedIn" class="text-zinc-500 hover:text-blue-600 opacity-75 icon">
                     <img loading="lazy" src="/src/assets/images/logo/LinkedInBlack.png" alt="Facebook icon" class="w-6 h-6" />
-                  </a>
+                  </RouterLink>
                 </div>
               </article>
-            </a>
+            </RouterLink>
           </div>
         </section>
   
