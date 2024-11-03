@@ -189,7 +189,7 @@
               <article>
                 <div class="flex flex-col grow items-start p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8">
                   <div class="w-14 h-14 flex items-center justify-center rounded-lg bg-orange-50">
-                    <img loading="lazy" src="/src/assets/images/logo/Icon 3.png" alt="Economy icon" class="object-contain w-12 aspect-[0.98]" />
+                    <img loading="lazy" src="/src/assets/images/logo/icon 3.png" alt="Economy icon" class="object-contain w-12 aspect-[0.98]" />
                   </div>
                   <h3 class="mt-4 text-3xl font-bold tracking-tighter leading-none text-gray-800 group-hover:text-white">Economy</h3>
                   <p class="self-stretch mt-1 text-base leading-7 text-zinc-500 group-hover:text-white">

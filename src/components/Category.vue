@@ -142,7 +142,7 @@
                         <div class="flex items-center p-8 w-full border border-solid border-zinc-500 max-md:px-5 h-28">
                           <div class="flex items-center gap-4">
                             <div class="w-12 h-12 flex items-center justify-center rounded-lg bg-orange-50">
-                              <img loading="lazy" src="/src/assets/images/logo/Icon 3.png" alt="Economy icon" class="object-contain w-8 h-8 scale-[1.5]" />
+                              <img loading="lazy" src="/src/assets/images/logo/icon 3.png" alt="Economy icon" class="object-contain w-8 h-8 scale-[1.5]" />
                             </div>
                             <h3 class="text-3xl font-bold tracking-tighter leading-none text-gray-800 group-hover:text-white">Economy</h3>
                           </div>
